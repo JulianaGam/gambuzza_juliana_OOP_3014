@@ -5,12 +5,12 @@ namespace MyProject\Dolls;
 use MyProject\Toy;
 
 /**
- * Doll class.
+ * here we use the exted method so doll can extend from toy and then the dolls toys can extend from doll 
  */
 class Doll extends Toy
 {
     /**
-     * Play with the doll.
+     * here we create the text for the play() wxplaining what you can do with a doll
      */
     public function play(): void
     {

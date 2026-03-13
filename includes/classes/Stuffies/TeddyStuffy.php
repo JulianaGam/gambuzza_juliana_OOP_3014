@@ -5,14 +5,14 @@ namespace MyProject\Stuffies;
 use MyProject\WashableTrait;
 
 /**
- * TeddyStuffy class
+ * TeddyStuffy extends from stuffy
  */
 class TeddyStuffy extends Stuffy
 {
     use WashableTrait;
 
     /**
-     * Play with the teddy stuffy
+     * creates soome text and describes the teddystuffy
      */
     public function play(): void
     {

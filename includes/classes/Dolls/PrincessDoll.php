@@ -3,18 +3,16 @@
 namespace MyProject\Dolls;
 
 /**
- * PrincessDoll class
+ * princes doll extends from doll
  */
 class PrincessDoll extends Doll
 {
     public string $theme;
 
+
     /**
-     * @param string $name
-     * @param string $color
-     * @param string $ageGroup
-     * @param string $theme
-     */
+ * Creates a new toy with a name, a color, an age group and a theme
+ */
     public function __construct(string $name, string $color, string $ageGroup, string $theme)
     {
         parent::__construct($name, $color, $ageGroup);
@@ -22,7 +20,7 @@ class PrincessDoll extends Doll
     }
 
     /**
-     * Describe the princess doll.
+     * creates text to describe the princess doll
      */
     public function describe(): void
     {

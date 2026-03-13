@@ -5,12 +5,12 @@ namespace MyProject\Stuffies;
 use MyProject\Toy;
 
 /**
- * Stuffy class.
+ * Stuffy extends from toy
  */
 class Stuffy extends Toy
 {
     /**
-     * Play with the stuffy.
+     *  creates some text describing how is the stuffy
      */
     public function play(): void
     {

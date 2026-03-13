@@ -3,12 +3,12 @@
 namespace MyProject;
 
 /**
- * ToyInterface.
+ * this sets the rule for all the toy classes
  */
 interface ToyInterface
 {
     /**
-     * Play with the toy.
+     * this makes that every toy has the play() method
      */
     public function play(): void;
 }

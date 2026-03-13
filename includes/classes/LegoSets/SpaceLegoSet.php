@@ -3,12 +3,12 @@
 namespace MyProject\LegoSets;
 
 /**
- * SpaceLegoSet class
+ * SpaceLegoSet extends from legoset
  */
 class SpaceLegoSet extends LegoSet
 {
     /**
-     * Play with the space Lego set
+     * creates some text to describe what you can do eith this lego set
      */
     public function play(): void
     {
