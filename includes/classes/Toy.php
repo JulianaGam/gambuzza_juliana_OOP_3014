@@ -3,19 +3,18 @@
 namespace MyProject;
 
 /**
- * Parent class for all toys
+ * Here I created the parent classes for all the toys
  */
 class Toy implements ToyInterface
+
 {
     public string $name;
     public string $color;
     public string $ageGroup;
+/**
+ * Creates a new toy with a name, a color and an age group 
+ */
 
-    /**
-     * @param string $name
-     * @param string $color
-     * @param string $ageGroup
-     */
     public function __construct(string $name, string $color, string $ageGroup)
     {
         $this->name = $name;
@@ -24,7 +23,7 @@ class Toy implements ToyInterface
     }
 
     /**
-     * Describe the toy
+     * here creates the text shown for each toy using its information name, color, agegroup
      */
     public function describe(): void
     {
@@ -32,7 +31,7 @@ class Toy implements ToyInterface
     }
 
     /**
-     * Play with the toy
+     * same idea, creates the text for each toy talking about play()
      */
     public function play(): void
     {
@@ -40,7 +39,7 @@ class Toy implements ToyInterface
     }
 
     /**
-     * Store the toy
+     * same idea, creates the text for each toy but saying thats is store() in a box.
      */
     public function store(): void
     {

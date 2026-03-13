@@ -5,7 +5,7 @@ namespace MyProject\Dolls;
 use MyProject\WashableTrait;
 
 /**
- * BabyDoll class.
+ *  babydoll extends from doll 
  */
 class BabyDoll extends Doll
 {
@@ -13,12 +13,8 @@ class BabyDoll extends Doll
 
     public bool $canCry;
 
-    /**
-     * @param string $name
-     * @param string $color
-     * @param string $ageGroup
-     * @param bool $canCry
-     */
+    // used bool to set it to true or flase, if it cries or not.
+
     public function __construct(string $name, string $color, string $ageGroup, bool $canCry)
     {
         parent::__construct($name, $color, $ageGroup);
@@ -26,7 +22,7 @@ class BabyDoll extends Doll
     }
 
     /**
-     * Describe the baby doll.
+     * here is the description for the baby doll, also it says if the doll cries or not depending if it cries or not
      */
     public function describe(): void
     {

@@ -3,12 +3,12 @@
 namespace MyProject;
 
 /**
- * WashableTrait.
+ * here adds the washing option for the washables toys classes.
  */
 trait WashableTrait
 {
     /**
-     * Wash the toy.
+     * here creates a text for the toys that are washable
      */
     public function wash(): void
     {

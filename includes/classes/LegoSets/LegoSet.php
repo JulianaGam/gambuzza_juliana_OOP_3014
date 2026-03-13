@@ -5,12 +5,12 @@ namespace MyProject\LegoSets;
 use MyProject\Toy;
 
 /**
- * LegoSet class
+ * LegoSet extedns from toy
  */
 class LegoSet extends Toy
 {
     /**
-     * Play with the Lego set
+     * creates some text for the lego sets play()
      */
     public function play(): void
     {
